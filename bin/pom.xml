@@ -8,7 +8,7 @@
 		<version>2.5.7</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.registro.usuarios</groupId>
+	<groupId>com.registro.usuarios.modelo</groupId>
 	<artifactId>com.registro.usuarios</artifactId>
 	<version>1.0</version>
 	<name>registro-usuarios-spring-security</name>

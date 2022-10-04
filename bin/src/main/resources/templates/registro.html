@@ -28,8 +28,7 @@
 						class="icon-bar"></span> <span class="icon-bar"></span> <span
 						class="icon-bar"></span>
 				</button>
-				<a class="navbar-brand" href="#" th:href="@{/}">Registro y
-					inicio de sesión</a>
+				<a class="navbar-brand" href="#" th:href="@{/}">SCHOOL CASH</a>
 			</div>
 		</div>
 	</nav>
@@ -58,7 +57,19 @@
 							id="apellido" class="form-control" th:field="*{apellido}"
 							required autofocus="autofocus">
 					</div>
-
+					
+					<div class="form-group">
+						<label class="control-label" for="perfil">Perfil: </label> <input
+							id="apellido" class="form-control" th:field="*{perfil}"
+							required autofocus="autofocus">
+					</div>
+					
+					<div class="form-group">
+						<label class="control-label" for="saldo">Saldo : </label> <input
+							id="apellido" class="form-control" th:field="*{saldo}"
+							required autofocus="autofocus">
+					</div>
+					
 					<div class="form-group">
 						<label class="control-label" for="email">Email : </label> <input
 							id="email" type="email" class="form-control" th:field="*{email}"
