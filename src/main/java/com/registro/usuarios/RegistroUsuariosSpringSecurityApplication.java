@@ -16,3 +16,4 @@ public class RegistroUsuariosSpringSecurityApplication {
 	//ALETAS COMO ASI//
 
 //Mamá estoy triunfando mandeme para el pasaje//
+// school cash //
